@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	>
+
+	<android.support.design.widget.AppBarLayout
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay"
+		android:fitsSystemWindows="true">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"
+			android:elevation="4dp">
+
+			<TextView
+				android:layout_gravity="end"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="发布"
+				android:textColor="@color/xz"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingRight="18dp"
+				android:id="@+id/ftactivityTextView1"/>
+
+		</android.support.v7.widget.Toolbar>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<EditText
+		android:textSize="20sp"
+		android:id="@+id/fragment_editcodeEditText"
+		android:background="#FFFFFFFF"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:hint="标题"
+		android:ems="10"
+		android:singleLine="true"
+		android:layout_below="@+id/fragment_editor_Toolbar"
+		android:inputType="none"
+		android:paddingStart="10dp"/>
+
+	<View
+		android:id="@+id/fragment_editcodeView"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:layout_below="@id/fragment_editcodeEditText"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<com.vkejun.wjs.editor.ScrollViewText
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:transitionName="write_bg">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+
+				<com.vkejun.wjs.editor.HorScrollViewText
+					android:id="@+id/horScrollViewText"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:scrollbars="none">
+
+					<com.vkejun.wjs.editor.CodeEditor
+						android:id="@+id/codeEditor"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<com.vkejun.wjs.editor.TextEditorView
+							android:id="@+id/textEditorView"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:background="@null"
+							android:hint="输入您的代码"
+							android:textSize="16sp"/>
+
+					</com.vkejun.wjs.editor.CodeEditor>
+
+				</com.vkejun.wjs.editor.HorScrollViewText>
+
+			</LinearLayout>
+
+		</com.vkejun.wjs.editor.ScrollViewText>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

@@ -1,5 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">设计笔录</string>
-    
+	<string name="drawer_open">打开侧滑</string>
+	<string name="drawer_close">关闭侧滑</string>
+	
+	
+	<string name="f1">主页</string>
+    <string name="f2">社区</string>
+    <string name="f3">我的</string>
+	
+	<string name="mydata">我的</string>
+	
 	
 </resources>

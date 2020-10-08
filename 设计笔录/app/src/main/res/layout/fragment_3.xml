@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:showIn="@layout/activity_main"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<View
+		android:id="@+id/status_bar_fix"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"/>
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay"
+		android:fitsSystemWindows="true"
+		app:elevation="0dp">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="@color/pian"
+			app:popupTheme="@style/AppTheme.PopupOverlay"
+			android:elevation="4dp"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<LinearLayout
+					android:id="@+id/fragment_3LinearLayout1"
+					android:gravity="top|center"
+					android:background="@color/pian"
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="150dp">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<ImageView
+							android:src="@drawable/tx"
+							android:id="@+id/fragment_3ImageView1"
+							android:layout_width="70dp"
+							android:layout_height="70dp"
+							android:layout_margin="10dp"
+							android:layout_marginLeft="10dp"/>
+
+						<LinearLayout
+							android:layout_margin="10dp"
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<TextView
+								android:id="@+id/fragment_3TextView1"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="未登录..."
+								android:textAppearance="?android:attr/textAppearanceLarge"
+								android:layout_marginTop="10dp"/>
+
+							<LinearLayout
+								android:orientation="horizontal"
+								android:background="@color/pian"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="社区号："
+									android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+								<TextView
+									android:id="@+id/fragment_3TextView2"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text=""
+									android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:orientation="horizontal"
+								android:background="@color/pian"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="用户组："
+									android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+								<TextView
+									android:id="@+id/fragment_3TextView3"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text=""
+									android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<View
+						android:background="?android:attr/dividerVertical"
+						android:layout_width="390dp"
+						android:layout_height="0.6dp"/>
+
+					<LinearLayout
+						android:gravity="center_vertical"
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="6dp">
+
+						<LinearLayout
+							android:id="@+id/fragment_3LinearLayout2"
+							android:layout_weight="1"
+							android:gravity="center"
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="0"/>
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="社区等级"/>
+
+						</LinearLayout>
+
+						<View
+							android:background="?android:attr/dividerHorizontal"
+							android:layout_width="0.6dp"
+							android:layout_height="match_parent"/>
+						
+						<LinearLayout
+							android:id="@+id/fragment_3LinearLayout3"
+							android:layout_weight="1"
+							android:gravity="center"
+							android:orientation="horizontal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content">
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="0"/>
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="开通会员"/>
+
+						</LinearLayout>
+
+						
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8dp"
+					android:layout_marginTop="-30dp"
+					android:layout_marginRight="8dp"
+					app:cardCornerRadius="8dp"
+					app:cardElevation="4dp"
+					app:cardUseCompatPadding="true"
+					app:contentPadding="6dp">
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="2dp">
+
+						<LinearLayout
+							android:gravity="center_vertical"
+							android:orientation="horizontal"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="2dp">
+
+							<LinearLayout
+								android:id="@+id/fragment_3LinearLayout4"
+								android:gravity="center"
+								android:orientation="vertical"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_weight="1.0">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"/>
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="关注"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:id="@+id/fragment_3LinearLayout5"
+								android:gravity="center"
+								android:orientation="vertical"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_weight="1.0">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"/>
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="粉丝"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:id="@+id/fragment_3LinearLayout6"
+								android:gravity="center"
+								android:orientation="vertical"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_weight="1.0">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"/>
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="消息"/>
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:id="@+id/fragment_3LinearLayout7"
+								android:gravity="center"
+								android:orientation="vertical"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_weight="1.0">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"/>
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="帖子"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</android.support.v7.widget.CardView>
+
+				<include
+					layout="@layout/fragment_mydata_main"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

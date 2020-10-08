@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.mycad.maxs"
+	xmlns:tools="http://schemas.android.com/tools"
+	package="com.vkejun.wjs"
 	android:versionCode="1"
-	android:versionName="1.0">
+	android:versionName="1.0.0">
 
 	<uses-sdk
 		android:minSdkVersion="16"
-		android:targetSdkVersion="27"/>
+		android:targetSdkVersion="21"/>
+
+	<uses-permission
+		android:name="android.permission.INTERNET"/>
+
+	<uses-permission
+		android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+	<uses-permission
+		android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+	<uses-permission
+		android:name="android.permission.WAKE_LOCK"/>
+
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+	<uses-permission
+		android:name="android.permission.READ_PHONE_STATE"/>
 
 	<application
-		android:allowBackup="true"
-		android:icon="@mipmap/ic_launcher"
-		android:roundIcon="@mipmap/ic_launcher_round"
+		android:name=".MyApplication"
+		android:allowBackup="false"
+		android:icon="@drawable/ic_launcher"
 		android:label="@string/app_name"
 		android:theme="@style/AppTheme"
-		android:resizeableActivity="false">
+		android:resizeableActivity="true"
+		android:exported="false"
+		android:debuggable="false"
+		tools:replace="android:allowBackup">
 
 		<activity
-			android:name=".MainActivity"
+			android:name=".utils.Welcome"
 			android:label="@string/app_name">
 
 			<intent-filter>
@@ -33,9 +55,56 @@
 
 		</activity>
 
-		<meta-data
-			android:name="android.max_aspect"
-			android:value="4.0"/>
+		<activity
+			android:name="com.tencent.tauth.AuthActivity"
+			android:launchMode="singleTask"
+			android:noHistory="true">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.VIEW"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+				<category
+					android:name="android.intent.category.BROWSABLE"/>
+
+				<data
+					android:scheme="tencent1107700107"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:name="com.tencent.connect.common.AssistActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar">
+
+		</activity>
+
+		<activity
+			android:name=".activity.HomeActivity"/>
+
+		<activity
+			android:name=".activity.LoginqqActivity"/>
+
+		<activity
+			android:name=".activity.PostingActivity"/>
+
+		<activity
+			android:name=".activity.SettingActivity"/>
+
+		<activity
+			android:name=".activity.EditCodeActivity"/>
+
+		<activity
+			android:name=".editor.EditorCodeActivity"/>
+
+		<activity
+			android:name=".editor.as.Jieshouqi"/>
 
 	</application>
 

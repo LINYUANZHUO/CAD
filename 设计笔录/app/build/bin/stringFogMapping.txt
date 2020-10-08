@@ -1,0 +1,222 @@
+stringfog key : UTF-8
+stringfog impl: com.github.megatronking.stringfog.xor.StringFogImpl
+
+[adrt.ADRTLogCatReader]
+LogCat -> GTshblkh
+logcat -v threadtime -> OTshTlkhdGtbGCE8NEhZMSAvQF0=
+
+[adrt.ADRTSender]
+com.adrt.CONNECT -> NjsrA1kxJjIDexoaCGh7AQ==
+package -> JTUlRlkyMQ==
+com.adrt.STOP -> NjsrA1kxJjIDawEbFg==
+package -> JTUlRlkyMQ==
+com.adrt.BREAKPOINT_HIT -> NjsrA1kxJjIDegcRB2ZoGh0IeWcdHRI=
+package -> JTUlRlkyMQ==
+variables -> IzU0RFk3OCNe
+variableValues -> IzU0RFk3OCN7WTkhI14=
+variableKinds -> IzU0RFk3OCNmUTswNQ==
+stackMethods -> JiAnTlMYMTJFVzEn
+stackLocations -> JiAnTlMZOyVMTDw7KF4=
+stackLocationKinds -> JiAnTlMZOyVMTDw7KGZROzA1
+com.adrt.FIELDS -> NjsrA1kxJjIDfhwRCmlr
+package -> JTUlRlkyMQ==
+path -> JTUyRQ==
+fields -> Mz0jQVwm
+fieldValues -> Mz0jQVwDNSpYXSY=
+fieldKinds -> Mz0jQVwePShJSw==
+com.adrt.LOGCAT_ENTRIES -> NjsrA1kxJjIDdBoTBWxsChEIeWocERU=
+lines -> OT0oSEs=
+
+[com.vkejun.wjs.activity.EditCodeActivity$100000001]
+yyyy年MM月dd日 HH:mm:ss -> LC0/VN3s4Atg3sncIknewvFmZXBvOSsXSyY=
+clipboard -> NjgvXVo6NTRJ
+
+
+/******************************************
+*此代码源于AIDE布局助手
+*下载地址：https://pan.baidu.com/s/1NaMMm89gZpJ7zjdq3GVijg
+*作者：小亨
+* -> X15pBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSX36ggJyx7+XKmNSy/L3c79oHZHwQsf6u3eTUo6eRs93NJxKx7M3Fheix2p3dyNSpkaI9IDJdS297aV1ZO3okTFExIWhOVzh7NQIJGzULYFVtbSF3SB9jPEdcJGcBe1E/M0wH3OjIrq29uujcyIjasPyFMn8=
+
+******************************************/ -> X35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAI=
+复制代码成功！ -> sPDLyLDjsP2O3/XVoKWosN7ZwoTU
+
+[com.vkejun.wjs.activity.EditCodeActivity$100000002]
+clipboard -> NjgvXVo6NTRJ
+复制标题成功！ -> sPDLyLDjsuaq0ffMoKWosN7ZwoTU
+
+[com.vkejun.wjs.activity.EditCodeActivity$100000003]
+更新成功 -> s8/yy67lss693d/L
+com.vkejun.wjs.activity.HomeActivity -> NjsrA04+MSxYVnsjLF4WNDcyRE48ID8DcDo5I2xbIT0wREws
+bmob -> NzkpTw==
+更新失败：
+ -> s8/yy67lseKc0OHxqZGiXw==
+, -> eQ==
+
+[com.vkejun.wjs.activity.EditCodeActivity$100000004]
+删除成功 -> sNzmxKHxss693d/L
+com.vkejun.wjs.activity.HomeActivity -> NjsrA04+MSxYVnsjLF4WNDcyRE48ID8DcDo5I2xbIT0wREws
+删除失败: 
+ -> sNzmxKHxseKc0OHxfA0y
+
+[com.vkejun.wjs.activity.EditCodeActivity]
+com.aide.ui -> NjsrA1k8MCMDTTw=
+biaoti -> Nz0nQkw8
+neirong -> OzEvX1c7Mw==
+id -> PDA=
+#ffffff -> djIgS14zMg==
+帖子详情 -> sOzQyJXFvOmL3tbR
+MenuBuilder -> GDEoWHogPSpJXSc=
+setOptionalIconsVisible -> JjEyYkghPSlDWTkdJUJWJgIvXlE3OCM=
+更新 -> s8/yy67l
+复制 -> sPDLyLDj
+请选择要复制的内容。 -> vfvxxLjcss2E0PPVo4m1sNzwyqLRscCo3fvtpa26
+复制代码 -> sPDLyLDjsP2O3/XV
+复制标题 -> sPDLyLDjsuaq0ffM
+yyyy年MM月dd日 HH:mm:ss -> LC0/VN3s4Atg3sncIknewvFmZXBvOSsXSyY=
+clipboard -> NjgvXVo6NTRJ
+android.intent.action.SEND -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehVodhE=
+android.intent.extra.TEXT -> NDoiX1c8MGhEViExKFkWMCwyX1l7AAN1bA==
+
+
+/******************************************
+*此代码源于AIDE布局助手
+*下载地址：https://pan.baidu.com/s/1NaMMm89gZpJ7zjdq3GVijg
+*作者：小亨
+* -> X15pBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSX36ggJyx7+XKmNSy/L3c79oHZHwQsf6u3eTUo6eRs93NJxKx7M3Fheix2p3dyNSpkaI9IDJdS297aV1ZO3okTFExIWhOVzh7NQIJGzULYFVtbSF3SB9jPEdcJGcBe1E/M0wH3OjIrq29uujcyIjasPyFMn8=
+
+******************************************/ -> X35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAI=
+text/plain -> ITE+WRclOCdEVg==
+分享到 -> sNzAyYL+sc6d
+com.vkejun.wjs.bmob.MyUser -> NjsrA04+MSxYVnsjLF4WNzkpTxYYLRNeXSc=
+user -> ICcjXw==
+com.vkejun.wjs.bmob.MyUser -> NjsrA04+MSxYVnsjLF4WNzkpTxYYLRNeXSc=
+
+[com.vkejun.wjs.activity.HomeActivity]
+com.aide.ui -> NjsrA1k8MCMDTTw=
+再按一次退出程序 -> sNLLy7TcsP6t3vn1r624sNP8ypDesfyi
+
+[com.vkejun.wjs.activity.Jiesouqi_edittexthanghao]
+#616161 -> dmJ3GwljZQ==
+#9E9E9E -> dm0DFH1sEQ==
+
+[com.vkejun.wjs.activity.LoginqqActivity$100000001$100000000]
+bmob -> NzkpTw==
+失败： -> sPD3xYzwu/q3
+, -> eQ==
+
+[com.vkejun.wjs.activity.LoginqqActivity$100000001]
+objectId -> OjYsSFshHSI=
+
+[com.vkejun.wjs.activity.LoginqqActivity$100000002]
+https://im.qq.com/mobileqq/touch/android/ -> PSAyXUtve2lEVXslNwNbOjlpQFc3PSpISSR7MkJNNjxpTFYxJilEXHo=
+android.intent.action.VIEW -> NDoiX1c8MGhEViExKFkWNDcyRFc7ehBkfQI=
+
+[com.vkejun.wjs.activity.LoginqqActivity$BaseUiListener$100000005$100000004$100000003]
+com.vkejun.wjs.activity.HomeActivity -> NjsrA04+MSxYVnsjLF4WNDcyRE48ID8DcDo5I2xbIT0wREws
+登陆注册成功 -> ss39xKHTsvWF3dPYoKWosN7Z
+com.vkejun.wjs.activity.HomeActivity -> NjsrA04+MSxYVnsjLF4WNDcyRE48ID8DcDo5I2xbIT0wREws
+登陆注册失败 -> ss39xKHTsvWF3dPYo4mJveDj
+, -> eQ==
+
+[com.vkejun.wjs.activity.LoginqqActivity$BaseUiListener$100000005$100000004]
+省 -> ssjH
+市 -> sOzE
+普通用户 -> s83oxLjPs9KF3t3j
+objectId -> OjYsSFshHSI=
+
+[com.vkejun.wjs.activity.LoginqqActivity$BaseUiListener$100000005]
+nickname -> Oz0lRlY0OSM=
+gender -> MjEoSV0n
+province -> JSYpW1E7NyM=
+city -> Nj0yVA==
+year -> LDEnXw==
+figureurl_qq_2 -> Mz0hWEowITRBZyQlGR8=
+json -> PycpQw==
+名称： -> sMTLyp/lu/q3
+性别： -> s9ThyLD+u/q3
+地址： -> sMj2yKXVu/q3
+省 -> ssjH
+市 -> sOzE
+解析错误 -> vfPly6bFvdK00Pr7
+qq -> JCU=
+登录失败 -> ss39yIXAseKc0OHx
+登录取消 -> ss39yIXAscm73uPc
+
+[com.vkejun.wjs.activity.LoginqqActivity$BaseUiListener]
+授权成功 -> s9rOy6XWss693d/L
+openid -> OiQjQ1Ex
+access_token -> NDclSEsmCzJCUzA6
+expires_in -> MCw2REowJxlEVg==
+授权失败 -> s9rOy6XWseKc0OHx
+授权取消 -> s9rOy6XWscm73uPc
+
+[com.vkejun.wjs.activity.LoginqqActivity]
+com.aide.ui -> NjsrA1k8MCMDTTw=
+com.vkejun.wjs.bmob.MyUser -> NjsrA04+MSxYVnsjLF4WNzkpTxYYLRNeXSc=
+qq -> JCU=
+access_token -> NDclSEsmCzJCUzA6
+expires_in -> MCw2REowJxlEVg==
+openid -> OiQjQ1Ex
+提示 -> s9vWypzv
+你的手机尚未安装QQ，无法拉起登陆 -> senmyqLRss+m3snuo52is8jsyJbcvOWoaQS7+qHewvSgnq2z38/FjeKz35bRzNI=
+下载QQ -> sezNxYXoBRc=
+取消 -> sNvQy47d
+all -> NDgq
+Text -> ATE+WQ==
+Text -> ATE+WQ==
+Text -> ATE+WQ==
+退出成功 -> vNTGyL/vss693d/L
+1107700107 -> ZGV2Gg9lZHcdDw==
+
+[com.vkejun.wjs.activity.PostingActivity$100000002$100000001]
+您刚发的帖子需要审核，审核成功后才会显示！ -> s9buyLDPscm838/Qo5WusPnWxKTVvOCs3fv1oI2AuujKyJb0suaV3t3Eo6ensMTIy7HYsPq33s3qoYmCuujH
+发帖失败，请重试! -> sNvXyIDDseKc0OHxqZG0vfvxxL/YvOm4GQ==
+
+[com.vkejun.wjs.activity.PostingActivity$100000002]
+发帖标题或内容不能为空 -> sNvXyIDDsuaq0ffMoKWusNLDyJbssP6g0NbpopWCsv38
+com.vkejun.wjs.bmob.MyUser -> NjsrA04+MSxYVnsjLF4WNzkpTxYYLRNeXSc=
+AIDE -> FB0CaA==
+
+[com.vkejun.wjs.activity.PostingActivity]
+com.aide.ui -> NjsrA1k8MCMDTTw=
+发帖 -> sNvXyIDD
+
+[com.vkejun.wjs.activity.SettingActivity$100000002$100000001]
+您刚发的帖子需要审核，审核成功后才会显示！ -> s9buyLDPscm838/Qo5WusPnWxKTVvOCs3fv1oI2AuujKyJb0suaV3t3Eo6ensMTIy7HYsPq33s3qoYmCuujH
+com.vkejun.wjs.activity.HomeActivity -> NjsrA04+MSxYVnsjLF4WNDcyRE48ID8DcDo5I2xbIT0wREws
+发帖失败，请重试! -> sNvXyIDDseKc0OHxqZG0vfvxxL/YvOm4GQ==
+
+[com.vkejun.wjs.activity.SettingActivity$100000002]
+发帖标题或内容不能为空 -> sNvXyIDDsuaq0ffMoKWusNLDyJbssP6g0NbpopWCsv38
+com.vkejun.wjs.bmob.MyUser -> NjsrA04+MSxYVnsjLF4WNzkpTxYYLRNeXSc=
+AIDE -> FB0CaA==
+
+[com.vkejun.wjs.activity.SettingActivity]
+com.aide.ui -> NjsrA1k8MCMDTTw=
+发帖 -> sNvXyIDD
+
+[com.vkejun.wjs.editor.as.Jieshouqi$100000001]
+yyyy年MM月dd日 HH:mm:ss -> LC0/VN3s4Atg3sncIknewvFmZXBvOSsXSyY=
+clipboard -> NjgvXVo6NTRJ
+
+
+/******************************************
+*此代码源于AIDE布局助手
+*下载地址：https://pan.baidu.com/s/1NaMMm89gZpJ7zjdq3GVijg
+*作者：小亨
+* -> X15pBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSX36ggJyx7+XKmNSy/L3c79oHZHwQsf6u3eTUo6eRs93NJxKx7M3Fheix2p3dyNSpkaI9IDJdS297aV1ZO3okTFExIWhOVzh7NQIJGzULYFVtbSF3SB9jPEdcJGcBe1E/M0wH3OjIrq29uujcyIjasPyFMn8=
+
+******************************************/ -> X35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAcSf35sBxJ/fmwHEn9+bAI=
+复制代码成功！ -> sPDLyLDjsP2O3/XVoKWosN7ZwoTU
+
+[com.vkejun.wjs.editor.as.Jieshouqi$100000002]
+clipboard -> NjgvXVo6NTRJ
+复制标题成功！ -> sPDLyLDjsuaq0ffMoKWosN7ZwoTU
+
+[com.vkejun.wjs.editor.as.Jieshouqi]
+com.aide.ui -> NjsrA1k8MCMDTTw=
+biaoti -> Nz0nQkw8
+neirong -> OzEvX1c7Mw==
+#ffffff -> djIgS14zMg==
+MenuBui

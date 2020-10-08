@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+	<item
+        android:id="@+id/gx"
+        app:showAsAction="ifRoom"
+        android:title="更新"
+        tools:ignore="AppCompatResource" />
+	<item
+        android:id="@+id/menulist1"
+        app:showAsAction="ifRoom"
+        android:title="复制"
+        tools:ignore="AppCompatResource" />
+
+	<item
+        android:id="@+id/menulist2"
+        android:title="分享"
+		android:orderInCategory="90"
+        app:showAsAction="ifRoom"/>
+	<group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+		<item
+			android:id="@+id/rz"
+			android:title="设置认证"
+			android:orderInCategory="90"
+			app:showAsAction="ifRoom"/>
+
+		<item
+			android:id="@+id/qxrz"
+			android:title="取消认证"
+			android:orderInCategory="90"
+			app:showAsAction="ifRoom"/>
+
+		<item 
+			android:id="@+id/star"
+			android:title="收藏"
+			android:orderInCategory="90"
+			app:showAsAction="ifRoom"/>
+
+		<item 
+			android:id="@+id/qxstar"
+			android:title="取消收藏"
+			android:orderInCategory="90"
+			app:showAsAction="ifRoom"/>
+	</group>
+	<item
+        android:id="@+id/delete"
+        android:title="删除话题"
+		android:orderInCategory="90"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

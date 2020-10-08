@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="@color/colorPrimary"
+		android:id="@+id/toolbar"
+		android:elevation="5dp"/>
+
+	<android.support.v7.widget.CardView
+		xmlns:card_view="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/cv_item"
+		android:descendantFocusability="blocksDescendants"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		card_view:cardCornerRadius="5dp"
+		card_view:cardUseCompatPadding="true"
+		card_view:cardElevation="3dp">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:layout_margin="10dp"
+				android:src="@drawable/aide"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp">
+
+				<TextView
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="AIDE"/>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:text="话题："/>
+
+					<TextView
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:id="@+id/aide_ht"
+						android:layout_width="100dp"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:text="加载中..."
+						android:singleLine="true"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="5dp"
+						android:text="版主："/>
+
+					<TextView
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:id="@+id/aide_bz"
+						android:layout_width="100dp"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="5dp"
+						android:text="加载中..."
+						android:singleLine="true"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</android.support.v7.widget.CardView>
+
+	<RelativeLayout
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<android.support.v4.widget.SwipeRefreshLayout
+			android:layout_below="@+id/fenxiang_toolbar"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:id="@+id/mainSwipeRefreshLayout1">
+
+			<android.support.design.widget.CoordinatorLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<ListView
+					android:dividerHeight="-1dp"
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:id="@+id/listpost">
+
+				</ListView>
+
+				<android.support.design.widget.FloatingActionButton
+					android:background="?android:attr/selectableItemBackgroundBorderless"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="bottom|end"
+					android:layout_margin="20dp"
+					android:src="@drawable/fabiao"
+					android:elevation="5dp"
+					android:id="@+id/fragment_2_FAB"/>
+
+			</android.support.design.widget.CoordinatorLayout>
+
+		</android.support.v4.widget.SwipeRefreshLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
